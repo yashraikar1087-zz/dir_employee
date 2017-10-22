@@ -1,0 +1,39 @@
+any code in the client folder is shipped to client(web browser)
+
+any code in the server folder will be used on server side
+
+any code to be shared between environments is placed in the imports folder
+
+any code in the imports folder will be run first than client or server folder
+best spot for doing application setup or initialization
+
+to make a collection import mongo library from meteor
+
+npmjs-listing of all modules u can download through npm 
+ 
+use .find method to get data records from collection. You get cursor and not records from the method
+
+loadash library is used to generate dummy data.
+
+faker library functions are used to create dummy employee data
+
+when u put console.log in your server code, you will see it on cmd
+
+React application will subscribe to data held on server side
+
+remove autopublish package to make sure all the data is not published to client side
+
+server defines publications, client side defines subscriptions
+
+when you use find in collections, it just gives an object with a reference until u tell what you want to find
+
+subscription is used to get access to publication
+
+package used to work with is react-meteor-data, it allows to create a container. Container allows to update data to component from subscription change
+
+fetching records will only return records you have subscribed to
+
+in class based component ,use this.props to use props values that are sent.
+
+once you fetch records using container it will show up in your component as props
+
